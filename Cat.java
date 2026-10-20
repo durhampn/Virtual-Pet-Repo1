@@ -13,7 +13,7 @@ public class Cat extends Pet {
     
     
     public void purr() {
-        System.out.println(this.name + " ChaCha purrs happily!");
+        System.out.println(getName() + " ChaCha purrs happily!");
     }
 	/**
 	Prints the name of the cat followed by "says: Meow!"
