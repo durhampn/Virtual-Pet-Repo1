@@ -10,7 +10,11 @@ public class Cat extends Pet {
     public Cat(String name) {
         super(name);
     }
-
+    
+    
+    public void purr() {
+        System.out.println(this.name + " ChaCha purrs happily!");
+    }
 	/**
 	Prints the name of the cat followed by "says: Meow!"
 	*/
