@@ -11,6 +11,9 @@ public class Cat extends Pet {
         super(name);
     }
     
+    public void scratch() {
+    	System.out.println(this.name + " scratches the wall")
+    }
     
     public void purr() {
         System.out.println(this.name + " ChaCha purrs happily!");
